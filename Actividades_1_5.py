@@ -6,7 +6,7 @@ from Actividades_1_a_5.par_impar_03 import par_impar                    #Importa
 from Actividades_1_a_5.aprobado_reprobado_04 import aprobado_reprobado  #Importar la función 'aprobado_reprobado' desde la carpeta 'Actividades_1_a_5'
 from Actividades_1_a_5.descuento_05 import monto_final                  #Importar la función 'monto_final' desde la carpeta 'Actividades_1_a_5'
 
-#Crea la ventana para las actividades de 1-5
+#Crea la ventana para las actividades
 def ventana_1_5():
     global ventana_1_5
     ventana_1_5 = tk.Toplevel()

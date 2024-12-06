@@ -6,7 +6,7 @@ from Actividades_6_a_10.clasif_edades_08 import clasi_edad                #Impor
 from Actividades_6_a_10.calculadora_09 import calculadora                 #Importar la función 'calculadora' desde la carpeta 'Actividades_6_a_10'
 from Actividades_6_a_10.año_bi_10 import anio_bi                          #Importar la función 'anio_bi ' desde la carpeta 'Actividades_6_a_10'
 
-#Crea la ventana para las actividades de 6-10
+#Crea la ventana para las actividades
 def ventana_6_10():
     global ventana_6_10
     ventana_6_10 = tk.Toplevel()

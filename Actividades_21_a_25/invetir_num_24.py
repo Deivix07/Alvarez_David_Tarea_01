@@ -34,7 +34,7 @@ def num_invertido():
     instrucciones = tk.Frame(ventana_invert)
     instrucciones.pack(pady=10)
     
-    isnt_1 = tk.Label(instrucciones, text="Ingresa un número entero:", font=("Arial", 12))
+    isnt_1 = tk.Label(instrucciones, text="Ingresa un número entero de dos o más cifras:", font=("Arial", 12))
     isnt_1.pack(side="left", padx=10)
 
     #Frame para contener las entradas

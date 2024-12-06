@@ -42,7 +42,7 @@ def sum_dig():
     nums.pack(pady=10)
 
     #Crear entradas para el número
-    num1 = tk.Entry(nums, font=("Times", 12), width=7)
+    num1 = tk.Entry(nums, font=("Times", 12), width=15)
     num1.pack(side="left", padx=60)
   
     #Botón Imprimir suma

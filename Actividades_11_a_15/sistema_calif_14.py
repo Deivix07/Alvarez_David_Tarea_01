@@ -32,7 +32,7 @@ def calificacion():
     ventana_calif.geometry("501x400")
 
     #Intrucciones
-    actividad = tk.Label(ventana_calif, text="Determine Calificación del Estudiante\n#90-100: A\n80-89: B\n70-79: C\n60-69: D\n60: F", font=("Arial", 12 ,"bold"))
+    actividad = tk.Label(ventana_calif, text="Determine Calificación del Estudiante\n#90-100: A\n80-89: B\n70-79: C\n60-69: D\n< 60: F", font=("Arial", 12 ,"bold"))
     actividad.pack(pady=10)
     
     etiqueta_instrucciones = tk.Label(ventana_calif, text="Ingrese una calificación:", font=("Arial", 12))

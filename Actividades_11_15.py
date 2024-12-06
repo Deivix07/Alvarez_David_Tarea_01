@@ -6,7 +6,7 @@ from Actividades_11_a_15.signo_zodiaco_13 import determinar_signo_zodiacal #Impo
 from Actividades_11_a_15.sistema_calif_14 import calificacion              #Importar la función 'calificacion' desde la carpeta 'Actividades_11_a_15'
 from Actividades_11_a_15.control_acceso_15 import control_acceso           #Importar la función 'control_acceso' desde la carpeta 'Actividades_11_a_15'
 
-#Crea la ventana para las actividades de 6-10
+#Crea la ventana para las actividades
 def ventana_11_15():
     global ventana_11_15
     ventana_11_15 = tk.Toplevel()

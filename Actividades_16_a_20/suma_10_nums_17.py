@@ -25,7 +25,7 @@ def suma_nums():
     ventana_sum.geometry("550x350")
 
     #Intrucciones
-    actividad = tk.Label(ventana_sum, text="Suma de números", font=("Arial", 12 ,"bold"))
+    actividad = tk.Label(ventana_sum, text="Suma de Números Consecutivos", font=("Arial", 12 ,"bold"))
     actividad.pack(pady=10)
     
     #Frame para intrucciones

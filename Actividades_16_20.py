@@ -6,7 +6,7 @@ from Actividades_16_a_20.tabla_mult_18 import tabla_mult                      #I
 from Actividades_16_a_20.calcular_pares_19 import pares                       #Importar la función 'pares' desde la carpeta 'Actividades_16_a_20'
 from Actividades_16_a_20.descendente_20 import descendente                    #Importar la función 'descendente' desde la carpeta 'Actividades_16_a_20'
 
-#Crea la ventana para las actividades de 6-10
+#Crea la ventana para las actividades
 def ventana_16_20():
     global ventana_16_20
     ventana_16_20 = tk.Toplevel()
@@ -18,7 +18,7 @@ def ventana_16_20():
 
     #Botones para las actividades
     tk.Button(ventana_16_20, text="Actividad 16 : Imprimir números ", command=imprimir_nums, font=("Times", 12, "bold"), bg="pale green").pack(pady=5)
-    tk.Button(ventana_16_20, text="Actividad 17 : Suma de números", command=suma_nums, font=("Times", 12, "bold"), bg="pale green").pack(pady=5)
+    tk.Button(ventana_16_20, text="Actividad 17 : Suma de números consecutivos", command=suma_nums, font=("Times", 12, "bold"), bg="pale green").pack(pady=5)
     tk.Button(ventana_16_20, text="Actividad 18 : Tabla de multiplicar", command=tabla_mult, font=("Times", 12, "bold"), bg="pale green").pack(pady=5)
     tk.Button(ventana_16_20, text="Actividad 19 : Contar números pares", command=pares , font=("Times", 12, "bold"), bg="pale green").pack(pady=5)
     tk.Button(ventana_16_20, text="Actividad 20 : Contador regresivo", command=descendente, font=("Times", 12, "bold"), bg="pale green").pack(pady=5)  

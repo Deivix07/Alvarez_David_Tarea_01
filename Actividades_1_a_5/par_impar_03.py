@@ -2,7 +2,7 @@ import tkinter as tk      #Importar la biblioteca tkinter para la interfaz gráf
 
 #Programa que solicite un número y determine si es par o impar
 def par_impar():
-    def verificar_numero():    #Función verificar número si es positivo, negativo o cero
+    def verificar_numero():    #Función verificar número si es par o impar
         try:
             num = int(entrada_numero.get())  #Obtener el número del campo de entrada
             if num % 2 == 0:

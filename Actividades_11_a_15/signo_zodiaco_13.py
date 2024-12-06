@@ -41,7 +41,7 @@ def determinar_signo_zodiacal():            # Función para determinar el signo 
             resultado.config(text=f"Tu signo zodiacal es: {signo}")
         
         except ValueError:
-            resultado.config(text="Por favor, ingrese un día o mes válidos")
+            resultado.config(text="Por favor, ingrese un día o mes (enero, febrero, ...) válidos")
 
     #Ventana signo
     ventana = tk.Toplevel()
